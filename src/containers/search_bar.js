@@ -18,7 +18,6 @@ class SearchBar extends Component {
   }
 
   onCountryChange(val) {
-    console.log(this.state.country);
     this.setState({country: val});
   }
 
@@ -26,7 +25,7 @@ class SearchBar extends Component {
     event.preventDefault();
     // Buscar os dados da previsão do tempo
     this.props.fetchWeather(this.state.term, this.state.country);
-    this.setState({term: ''}, {country: ''});
+    this.setState({term: '', country: ''});
   }
 
   render() {

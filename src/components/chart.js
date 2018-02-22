@@ -9,7 +9,7 @@ export default (props) => {
 
   return (
     <div>
-      <Sparklines svgHeight={120} width={150} data={props.data}>
+      <Sparklines svgHeight={120} width={120} data={props.data}>
         <SparklinesLine color={props.color} />
         <SparklinesReferenceLine type="avg" />
       </Sparklines>
