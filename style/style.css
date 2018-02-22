@@ -1,0 +1,8 @@
+select.form-control {
+    width: 30% !important;
+    padding: .53rem .75rem;
+}
+
+input.form-control {
+    width: 70% !important;
+}
